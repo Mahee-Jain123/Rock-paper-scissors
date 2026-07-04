@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <input type="text" id="rounds" placeholder="Type the number of rounds">
+    <button onclick="startGame()">Submit</button>
+
+    <br><br>
+
+    <button onclick="playRound('rock')">Rock</button>
+    <button onclick="playRound('paper')">Paper</button>
+    <button onclick="playRound('scissors')">Scissors</button>
+
+    <p id="result"></p>
+    <p id="score"></p>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
